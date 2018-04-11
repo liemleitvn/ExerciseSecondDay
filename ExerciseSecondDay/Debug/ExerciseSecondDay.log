@@ -1,0 +1,19 @@
+﻿  Program.cpp
+d:\liem\project\exercisesecondday\exercisesecondday\electric.h(8): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\liem\project\exercisesecondday\exercisesecondday\electric.h(29): warning C4244: 'return': conversion from 'float' to 'unsigned long', possible loss of data
+d:\liem\project\exercisesecondday\exercisesecondday\electric.h(33): warning C4244: 'return': conversion from 'float' to 'unsigned long', possible loss of data
+d:\liem\project\exercisesecondday\exercisesecondday\electric.h(37): warning C4244: 'return': conversion from 'float' to 'unsigned long', possible loss of data
+d:\liem\project\exercisesecondday\exercisesecondday\big_sport.h(44): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  d:\liem\project\exercisesecondday\exercisesecondday\big_sport.h(44): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  d:\liem\project\exercisesecondday\exercisesecondday\big_sport.h(44): note: the missing variadic argument 1 is required by format string '%d'
+d:\liem\project\exercisesecondday\exercisesecondday\compare.h(35): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  d:\liem\project\exercisesecondday\exercisesecondday\compare.h(35): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  d:\liem\project\exercisesecondday\exercisesecondday\compare.h(35): note: the missing variadic argument 1 is required by format string '%d'
+d:\liem\project\exercisesecondday\exercisesecondday\int_to_day.h(28): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  d:\liem\project\exercisesecondday\exercisesecondday\int_to_day.h(28): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  d:\liem\project\exercisesecondday\exercisesecondday\int_to_day.h(28): note: the missing variadic argument 1 is required by format string '%d'
+d:\liem\project\exercisesecondday\exercisesecondday\pay.h(55): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\liem\project\exercisesecondday\exercisesecondday\profit.h(29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\liem\project\exercisesecondday\exercisesecondday\profit.h(40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\liem\project\exercisesecondday\exercisesecondday\electric.h(39): warning C4715: 'calculate': not all control paths return a value
+  ExerciseSecondDay.vcxproj -> D:\LIEM\Project\ExerciseSecondDay\Debug\ExerciseSecondDay.exe

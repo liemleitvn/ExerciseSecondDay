@@ -17,10 +17,18 @@ void calculatePay()
 	float timeM, timeA;//so gio lam buoi sang, so gio lam buoi chieu
 	float salary;//tien cong
 	printf("Chuong trinh tinh luong moi ngay cho cong nhan\n");
-	printf("Nhap gio vao(in>=6): ");
-	scanf_s("%f", &in);
-	printf("Nhap gio ra ca (out<=18): ");
-	scanf_s("%f", &out);
+	do
+	{
+		printf("\nNhap gio vao(in>=6): ");
+		scanf_s("%f", &in);
+		printf("\nNhap gio ra ca (out<=18): ");
+		scanf_s("%f", &out);
+		if (in < 6 && out > 18)
+		{
+			printf("Du lieu nhap khong hop le. Vui long nhap lai\n");
+		}
+	}
+	while (in < 6 || out > 18);
 	if (in >= InMin && out <= OutMax && in <= out)
 	{
 		if (out <= MidTime)//Cong nhan chi lam buoi sang
@@ -47,7 +55,4 @@ void calculatePay()
 		salary = timeM * DGMorning + timeA * DGAfternoon;
 		printf("Tien cong la: %0.3f", salary);
 	}
-	else
-		printf("Du lieu nhap khong hop le");
-	scanf_s("%d");
 }

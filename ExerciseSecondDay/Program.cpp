@@ -13,16 +13,16 @@
 #include "profit.h"
 void main()
 {
-	//countNegativePositive();
+	countNegativePositive();
 	//maxMinNumberArray();
 	//hoanViHaiSoNguyen();
 	//calculateMoneyElectric();
-	//bigSportYear()
-	//compareFor3Int()
-	//changeIntToDay()
-	//calculatePay()
-	//displayDivisor()
-	//calculateProfit()
+	//bigSportYear();
+	//compareFor3Int();
+	//changeIntToDay();
+//	calculatePay();
+	//displayDivisor();
+	//calculateProfit();
 
 	_getch();
 }
