@@ -5,7 +5,7 @@
 void displayDivisor()
 {
 	int number;
-	int plus;//dem uoc so cua so vua nhap
+	int plus;//dem so uoc so cua so vua nhap
 	plus = 0;
 	printf("Input number: ");
 	scanf_s("%d", &number);
